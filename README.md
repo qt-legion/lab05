@@ -1,16 +1,10 @@
 [![Build Status](https://travis-ci.com/qt-legion/lab05.svg?branch=master)](https://travis-ci.com/qt-legion/lab05)
-[![Coverage Status](https://coveralls.io/repos/github/qt-legion/lab05/badge.svg?branch=master)](https://coveralls.io/github/qt-legion/lab05?branch=master)
 
 Создайте CMakeList.txt для библиотеки banking.
 
 Создайте модульные тесты на классы Transaction и Account.
-
-    Используйте mock-объекты.
-    Покрытие кода должно составлять 100%.
     
 Настройте сборочную процедуру на TravisCI.
-
-Настройте Coveralls.io.
 
 ## CMakeLists.txt
 ```
@@ -46,17 +40,12 @@ addons:
       - cmake-data
       - mingw-w64
 
-before_install:
-  - pip install --user cpp-coveralls
-
 
 script:
 - cmake .
 - make
 - ./testst
 
-after_success:
-  - coveralls --root . -E ".*gtest.*" -E ".*CMakeFiles.*"
 ```
 ## test.cpp
 ```
