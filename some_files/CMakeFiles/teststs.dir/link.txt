@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/teststs.dir/test.cpp.o  -o teststs  --coverage third-party/gtest/googlemock/gtest/libgtest.a third-party/gtest/googlemock/gtest/libgtest_main.a third-party/gtest/googlemock/gtest/libgtest.a -pthread 

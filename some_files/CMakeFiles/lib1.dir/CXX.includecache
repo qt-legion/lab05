@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rogopl/Rogopl/workspace/projects/lab_05/lab05/Account.cpp
+Account.h
+/home/rogopl/Rogopl/workspace/projects/lab_05/lab05/Account.h
+stdexcept
+-
+
+/home/rogopl/Rogopl/workspace/projects/lab_05/lab05/Account.h
+
