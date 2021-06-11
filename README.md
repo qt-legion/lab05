@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/qt-legion/lab05.svg?branch=master)](https://travis-ci.com/qt-legion/lab05)
+[![Build Status](https://travis-ci.com/qt-legion/lab05.svg?branch=main)](https://travis-ci.com/qt-legion/lab05)
 
 Создайте CMakeList.txt для библиотеки banking.
 
